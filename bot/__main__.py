@@ -8,6 +8,8 @@ from .config import *
 from .worker import *
 from .devtools import *
 from .FastTelethon import *
+import anitopy
+from telethon.tl.types import DocumentAttributeVideo
 LOGS.info("Starting...")
 
 try:
